@@ -49,7 +49,7 @@ const HowItWorks = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {steps.map((step, index) => (
             <div key={index} className="relative">
-              <Card className="bg-card border-border hover:shadow-card transition-smooth h-full group">
+              <Card className="bg-card border-border hover:shadow-medium transition-smooth h-full group">
                 <CardContent className="p-8 text-center">
                   <div className="mb-6">
                     <div className="text-6xl font-bold text-primary/20 mb-4">{step.step}</div>

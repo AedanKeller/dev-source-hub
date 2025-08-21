@@ -75,7 +75,7 @@ const Pricing = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {plans.map((plan, index) => (
-            <Card key={index} className={`relative border-border ${plan.popular ? 'bg-gradient-secondary shadow-glow scale-105' : 'bg-card'} transition-smooth`}>
+            <Card key={index} className={`relative border-border ${plan.popular ? 'bg-gradient-secondary shadow-large scale-105' : 'bg-card'} transition-smooth`}>
               {plan.popular && (
                 <Badge className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-gradient-primary">
                   <Zap className="w-4 h-4 mr-1" />

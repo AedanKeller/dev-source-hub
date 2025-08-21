@@ -69,9 +69,9 @@ export default {
 				'gradient-hero': 'var(--gradient-hero)',
 			},
 			boxShadow: {
-				'glow': 'var(--shadow-glow)',
-				'elegant': 'var(--shadow-elegant)',
-				'card': 'var(--shadow-card)',
+				'subtle': 'var(--shadow-subtle)',
+				'medium': 'var(--shadow-medium)',
+				'large': 'var(--shadow-large)',
 			},
 			transitionTimingFunction: {
 				'smooth': 'var(--transition-smooth)',

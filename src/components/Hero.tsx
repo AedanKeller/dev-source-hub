@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ArrowRight, Code, Trophy, Zap } from "lucide-react";
-import heroImage from "@/assets/hero-bg.jpg";
+import heroImage from "@/assets/hero-minimal.jpg";
 
 const Hero = () => {
   return (
@@ -11,7 +11,7 @@ const Hero = () => {
         <img 
           src={heroImage} 
           alt="Professional software development marketplace" 
-          className="w-full h-full object-cover opacity-30"
+          className="w-full h-full object-cover opacity-20"
         />
         <div className="absolute inset-0 bg-gradient-hero"></div>
       </div>
@@ -33,7 +33,7 @@ const Hero = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-          <Button variant="hero" size="lg" className="shadow-glow">
+          <Button variant="hero" size="lg" className="shadow-medium">
             Start Your Free Trial
             <ArrowRight className="ml-2 w-5 h-5" />
           </Button>

@@ -40,7 +40,7 @@ const Problem = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {problems.map((problem, index) => (
-            <Card key={index} className="bg-card/50 backdrop-blur-sm border-border hover:shadow-card transition-smooth">
+            <Card key={index} className="bg-card border-border hover:shadow-medium transition-smooth">
               <CardContent className="p-6 text-center">
                 <div className="mb-4 flex justify-center">
                   {problem.icon}

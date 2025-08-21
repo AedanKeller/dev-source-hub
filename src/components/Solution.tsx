@@ -41,7 +41,7 @@ const Solution = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {benefits.map((benefit, index) => (
-            <Card key={index} className="bg-gradient-secondary border-border hover:shadow-elegant transition-smooth group">
+            <Card key={index} className="bg-gradient-secondary border-border hover:shadow-medium transition-smooth group">
               <CardContent className="p-6 text-center">
                 <div className="mb-4 flex justify-center group-hover:scale-110 transition-bounce">
                   {benefit.icon}

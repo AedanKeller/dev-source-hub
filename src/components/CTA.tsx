@@ -23,7 +23,7 @@ const CTA = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button variant="hero" size="lg" className="shadow-glow">
+            <Button variant="hero" size="lg" className="shadow-medium">
               Start Your 14-Day Free Trial
               <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
